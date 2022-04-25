@@ -1,0 +1,166 @@
+#bg {
+    min-height: 450px;
+    height: 100vh;
+    background-position: center center;
+    background-attachment: scroll;
+    background-image: '../img/bg.jpg';
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+#filter {
+    min-height: 450px;
+    height: 100vh;
+    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.7)), to(rgba(0,0,0,0.7)) );
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+.my-text a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+}
+.furtech {
+    color: #ffffff;
+    font-size: 72px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.15;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.sub-furtech {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.btn-furtech{
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 34px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #000000;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    width: 10%;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+}
+.abs-center{
+    top: 40%;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+#arrow{
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.gif-img {
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    width: 100%;
+}
+.mt-10{
+    margin-top: 200px;
+}
+.icon-div{
+    display: grid;
+    justify-items: center;
+}
+.our-product{
+    color: #000000;
+    font-size: 42px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.our-product-sub{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.our-product-text{
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.title{
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 42px;
+    line-height: 1.23;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.zamer-img{
+    max-width: 560px;
+}
+.zamer-txt{
+    margin-bottom: 24px;
+    margin-top: 15%;
+    font-size: 26px;
+    line-height: 1.23;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+.zamer-txt-sub{
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 1.23;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+.taken-bold{
+    font-size: 20px;
+    line-height: 1.35;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 14px;
+}
+.taken-txt{
+    font-size: 18px;
+    line-height: 1.55;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    color: #000;
+}
